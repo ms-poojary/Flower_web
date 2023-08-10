@@ -1,0 +1,357 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+/* navigation section */
+.nav{
+    margin: 0;
+    width: 99%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 3px 3px rgba(128, 128, 128, 0.486);
+}
+.head{
+    font-size: xx-large;
+    font-weight: bold;
+    width:20%;
+    padding: 10px;
+    text-align: center;
+}
+.content{
+    width: 70%;
+    display: flex;
+    justify-content:center;
+    text-decoration: none;
+    font-size: larger;
+}
+.content a{
+    text-decoration: none;
+    padding: 13px;
+    color: black;
+}
+.content a:hover,.icons i:hover{
+    color: rgb(247, 53, 85);
+}
+.icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* home section */
+
+.main{
+    position: relative;
+    margin-top: 70px;
+    background-image: url(images/mainimg.png);
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+}
+#subheading,#about,span,.pink{
+    color: rgb(247, 53, 85);
+}
+.subheading{
+    width: 500px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+.button{
+    width: 120px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 31, 31);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 6px;
+}
+.button:hover{
+    background-color: rgb(247, 53, 85);
+}
+
+/* About section */
+
+.About{
+    background-color: rgb(255, 255, 255);
+    color: black;
+   margin: 10px 50px 10px 50px;
+   box-shadow: 1px 1px 3px 3px rgba(75, 71, 71, 0.329);
+}
+.headabout{
+    text-align: center;
+    background-color: rgb(233, 170, 181);
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+.headabout2{
+    display:inline;
+    margin-left: 30px;
+}
+#vedios{
+    width: 400px;
+    height: 300ppx;
+    margin: 10px;
+    box-shadow: 1px 4px 4px 1px rgba(117, 110, 110, 0.733) ;
+}
+#us{
+    color: black;
+}
+.innerbody{
+    display: flex;
+    padding: 10px;
+}
+#choose{
+    font-size: 30px;
+}
+.vediocont .text{
+    position:relative;
+    bottom: 50%;
+    text-align: center;
+ /* overflow-x: hidden; */
+    font-size: 27px;
+    padding: 10px;
+    mix-blend-mode: screen;
+    background-color: rgb(255, 255, 255);
+}
+.Base{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(162, 160, 167, 0.39);
+    color: rgba(0, 0, 0, 0.904);
+}
+.base1{
+    width:20%;
+    padding: 5px;
+    box-shadow: 1px 2px 2px 4px rgba(128, 128, 128, 0.514);
+    text-align: center;
+    background-color: white;
+}
+
+/* product section */
+
+.products{
+    margin: 10px 70px 10px 70px;
+    text-align: center;
+}
+.producthead{
+    font-size: 3rem;
+    background-color:rgb(233, 170, 181);
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 5px;
+}
+.products1{
+    margin-left: 25px;
+    display: inline-block;
+
+}
+/* #product{
+    color: rgb(247, 53, 85);
+} */
+.productbody{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container{
+    width: 30%;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 2px 4px rgba(128, 128, 128, 0.514);;
+}
+#fifth{
+    width: 60%; 
+}
+#number{
+    width:30px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+    color: rgb(247, 53, 85);
+    background-color:rgb(233, 170, 181);
+}
+.icon{
+    height: 30px;
+    font-size: 1.3rem;
+    padding: 4px;
+    background-color: rgb(247, 53, 85);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    visibility: hidden ;
+}
+.icon a{
+    width: 25%;
+    color: white;
+    text-decoration: none;
+    
+}
+.icon a:hover{
+    border-right:2px solid white;
+    border-left:2px solid white;
+}
+.icon .addbtn{
+    /* height: 100%; */
+    width: 50%;
+}
+.container:hover{
+    .boximage img{
+        scale: 1.1;
+    }
+    .icon{
+        position: relative;
+        bottom: 0;
+        visibility: visible;
+    }
+}
+.money{
+    color: rgb(247, 53, 85); 
+}
+
+/* Reivew section */
+
+.Review{
+    margin: 20px 50px 20px 50px;
+}
+.reviewhead{
+    text-align: center;
+    background-color: rgb(233, 170, 181);
+    font-size: 30px;
+    padding: 15px;
+}
+.reviewhead1{
+    display: inline;
+    margin-left: 30px;
+}
+.reviewbody{
+    display:flex;
+    justify-content: space-between;
+}
+.reviewcont{
+    width: 30%;
+    box-shadow: 1px 2px 2px 4px rgba(128, 128, 128, 0.514);
+    margin:10px 0 10px 0;
+    padding: 10px;
+}
+.reviewcont p{
+    font-size: 1rem;
+}
+.star{
+    font-size: 1.7rem;
+    color: rgb(247, 53, 85);
+}
+.profile{
+    display: flex;
+
+}
+.name{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.quotes{
+    width: 25%;
+    color: rgba(151, 146, 146, 0.445);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+.reviewcont .picture{
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 50%;
+}
+#review1{
+    background-image: url(images/review1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#review2{
+    background-image: url(images/review2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#review3{
+    background-image: url(images/review3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/* contact section */
+
+.contact{
+    margin: 10px 30px 30px 30px;
+}
+.contactbody{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+.table{
+    padding: 30px;
+    font-size: 2.3rem;
+    box-shadow: 1px 2px 2px 4px rgba(128, 128, 128, 0.514);
+    width: 50%;
+}
+.contactimages{
+    width: 40%;
+    background-image: url(images/contact\ .jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.table input{
+    width: 100%;
+    height: 35px;
+}
+#message{
+    height: 100px;
+}
+#send{
+    width: 170px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+#footer1{
+    display: flex;
+   
+}
+.footer1{
+    margin: 10px;
+    height: 300px;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+#footer2{
+    padding: 15px;
+    text-align: center;
+}
